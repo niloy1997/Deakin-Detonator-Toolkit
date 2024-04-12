@@ -18,7 +18,7 @@ const description_userguide =
     "Step 2: Choose the appropriate rainbow table set for the hash algorithm used.\n" +
     "       E.g. Select the MD5 rainbow table set.\n\n" +
     "Step 3: Initiate the cracking process by executing RainbowCrack.\n\n" +
-    "Step 4: Review the Output section to access the cracked passwords upon completion of the operation.";
+    "Step 4: Review the Output section to access the cracked passwords upon completion of the operation!";
 
 interface FormValues {
     hashcode: string;
