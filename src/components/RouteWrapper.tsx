@@ -64,6 +64,7 @@ import Persistence from "./WalkthroughPages/Persistence";
 import RTsort from "./RTsort/RTsort";
 import Rainbowcrack from "./Rainbowcrack/Rainbowcrack";
 import NSLookup from "./NSLookupTool/NSLookupTool";
+import Bettercap from "./Bettercap/Bettercap";
 
 export interface RouteProperties {
     name: string;
@@ -286,6 +287,13 @@ export const ROUTES: RouteProperties[] = [
         description:
             "BED is a program which is designed to check daemons for potential buffer overflows, format strings",
         category: "Information Gathering and Analysis",
+    },
+    {
+        name: "Bettercap",
+        path: "/tools/Bettercap",
+        element: <Bettercap />,
+        description: "somethign about bettercap",
+        category: "Attack Tools",
     },
     {
         name: "Cewl",
