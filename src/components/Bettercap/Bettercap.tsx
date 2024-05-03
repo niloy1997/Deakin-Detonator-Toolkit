@@ -49,7 +49,7 @@ const Bettercap = () => {
         //Switch case
         switch (values.bettercapOptions) {
             case "Version Check": //This version check option is a baseline to test that bettercap functions
-                args = [`-v`];
+                args = [`-version`];
 
                 try {
                     let output = await CommandHelper.runCommand("bettercap", args);
